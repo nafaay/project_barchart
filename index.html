@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="stylesheet" href="bootstrap3/css/bootstrap.min.css">
+  <script src="bootstrap3/js/jquery-2.2.4.min.js"></script>
+  <script src="bootstrap3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="mystyle.css" />
+  <link rel="canonical" href="https://getbootstrap.com/dery/3.5.1/jquery.min.js">
+  </script>
+  <script src="myscript.js"></script>
+  <title>Bar Chart</title>
+</head>
+
+<body>
+  <h2>Bar Chart</h2>
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-1"></div>
+    <div class="col-md-8 valClassT" id="valBarT">
+    </div>
+  </div>
+  <div class="row" id="data">
+    <div class="col-md-3">
+      <form id="myForm" class="form">
+        <label for="valdata">Data:</label><br>
+        <input type="text" name="valdata" id="valdata" class="form-control"><br>
+        <a href="#" class="color">Color <span class="caret"></span></a>
+        <ul>
+          <li id="black">Black</li>
+          <li id="red">Red</li>
+          <li id="yellow">Yellow</li>
+          <li id="blue">Blue</li>
+          <li id="orange">Orange</li>
+        </ul>
+        <br><br>
+        <label for="width">Bar Width:</label><br>
+        <input type="text" name="width" id="width" class="form-control"><br><br>
+        <button type="submit" class="btn btn-primary">Apply</button><br><br>
+      </form>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-8 mainClass" id="main">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-1"></div>
+    <div class="col-md-8 valClassD" id="valBarD">
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+#wrap {
+	display: flex;
+}
+#coordy {
+	display: flex;
+	width: 120px;
+	height: 400px;
+	align-items: flex-end;
+}
+#data {
+	padding: 20px;
+}
+
+.mainClass {
+	position: relative;
+}
+
+.classBar {
+	position: absolute;
+}
+
+.valClassD {
+	position: relative;
+}
+
+.valBarD {
+	position: absolute;
+}
+
+ul {
+	display: none;
+}
+ul li {
+	list-style-type: none;
+	width: 5em;
+}
